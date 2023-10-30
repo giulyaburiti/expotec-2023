@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background-color: #fafaff;
+    color: #191919;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30vh;
+    align-items: center;
+
+    margin: 10px 30px;
+}
+
+body img{
+    height: 757px;
+}
+
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #b3b0b2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="endereco"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+label{
+    font-weight: bold;
+}
+
+section{
+    max-width: 2000px;
+    vertical-align: top;
+    margin: 0 auto;
+    padding: 20px; /*Para distanciar cada topico*/
+    background-color: #fff;
+}
+
+h2{
+    font-size: 36px;
+}
+
+/* Estilo para a tabela */
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #333;
+}
+
+/* Estilo para as células de cabeçalho */
+th {
+    background-color: #b3b0b2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para as células de dados */
+td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
